@@ -2,11 +2,6 @@ import React, { useState } from 'react';
 import './Login.css';
 const Logo = () => {
 
-    const [isInput, setIsInput] = useState(false);
-
-    const handleClick = () => {
-        setIsInput(true);
-      };
 
 return (
     <div className="LogoDiv">
