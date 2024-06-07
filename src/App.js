@@ -1,11 +1,8 @@
 import './App.css';
-import LoginBox from './comps/LoginBox.tsx';
-
+import Logo from './comps/Logo.tsx';
 function App() {
   return (
-    <div className="App">
-      <LoginBox/>
-    </div>
+      <Logo/>
   );
 }
 
